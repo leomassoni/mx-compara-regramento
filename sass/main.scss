@@ -1,0 +1,102 @@
+$branco1: #fff;
+$branco2: #f2f2f2;
+$cinza: #e9e9e98a;
+$azulmx1: #0cb1db;
+$azulmx2: #263238;
+$preto: black;
+
+.corpo {
+    background: $branco2;
+
+    .geral {
+        margin: 5% 20%;
+        background: $branco1;
+        color: $branco1;
+        font-family: 'Montserrat', sans-serif;
+
+    
+        &__titulo {
+            background-color: $azulmx1;
+            padding: 4vh 5vw;
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+    
+        &__paragrafo {
+            margin-top: 10px;
+            background-color: $azulmx2;
+            padding: 2vh 5vw;
+            font-size: .75em;
+            text-align: center;
+        }
+        
+        .entrada {
+            display: flex;
+            justify-content:space-around;
+            padding: 10px 0;
+
+            .dados{
+                display: flex;
+                flex-direction: column;
+                width: 200px;
+                margin: 10px 0;
+    
+                &__rotulo {
+                    font-size: .8em;
+                    color:$preto;
+                    margin-bottom: 2px;
+                }
+        
+                &__duvidas {
+                    font-size: .8em;
+                }
+            }
+        }
+        
+        .tabela {
+            width: 100%;
+            height: auto;
+            color: $preto;
+            border: 5px solid $branco1;
+            background-color: $branco1;
+
+            .linha {
+                &___titulo, &__regulador, &__regra  {
+                    border: 5px solid $branco1;
+                    width: 50%;
+                    padding: 5px;
+                }
+    
+                &__regulador {
+                    background-color: $azulmx2;
+
+                    .link {
+                        &__geral, &__regional {
+                            cursor:default;
+                            text-decoration: none;
+                            color: $branco1;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .hover:hover {
+                        cursor:pointer;
+                        color: $cinza;
+                    }
+                }
+    
+                &__regra, &__regulador {
+                    font-size: .8em;
+                    text-align: center;
+                    vertical-align:middle;
+                }
+
+                .regra__paragrafo {
+                    line-height: 18px;
+                    margin: 10px;
+                }
+            }
+        }
+    }
+}
+

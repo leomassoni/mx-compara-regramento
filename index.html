@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Compara Regramentos</title>
+</head>
+<body class="corpo">
+    <div class="corpo__geral geral">
+        <h1 class="geral__titulo">Compare alguns regramentos</h1>
+    <div class="copo__app app">
+        
+        <div class="app__entrada entrada">
+            <div class="entrada__dados dados">
+                <select name="duvidas" id="dados__duvida" class="dados__duvida duvida">
+                    <option value="" class="duvida__opcao" selected>Escolha sua dúvida</option>
+                </select>
+            </div>
+            <div class="entrada__dados dados">
+                <select name="estados" id="dados__regiao" class="dados__duvida regiao">
+                    <option value="" class="regiao__opcao" selected>Escolha uma região</option>
+                </select>
+            </div>    
+            
+        </div>
+        
+        <table class="corpo__tabela tabela">
+            <tr class="tabela__linha linha">
+                <th class="linha__titulo">Lei geral</th>
+                <th class="linha__titulo">Convenção Coletiva</th>
+            </tr>
+            <tr class="tabela__linha linha">
+                <td class="linha__regulador"><a href="#" class="link__geral">Regulador Geral</a></td>
+                <td class="linha__regulador"><a href="#" class="link__regional">Regulador Regional</a></td>
+            </tr>
+            <tr class="tabela__linha linha">
+                <td class="linha__regra regra">
+                    <p id="regra__geral" class="regra__paragrafo">Escolha sua dúvida para ler a regulamentação geral a respeito.</p>
+                </td>
+                <td class="linha__regra regra">
+                    <p id="regra__regional" class="regra__paragrafo">Agora escolha a região para ler a regulamentação regional a respeito.</p>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+    <p class="geral__paragrafo">Não se esqueça de conferir se sua empresa possui um Acordo Coletivo e, na dúvida, consulte o Sindicato local.</p>
+    </div>
+
+</body>
+
+<script src="js-script/regras-gerais.js"></script>
+<script src="js-script/regras-regionais.js"></script>
+<script src="js-script/main.js"></script>
+
+
+
+</html>

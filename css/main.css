@@ -1,0 +1,77 @@
+.corpo {
+  background: #f2f2f2;
+}
+.corpo .geral {
+  margin: 5% 20%;
+  background: #fff;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.corpo .geral__titulo {
+  background-color: #0cb1db;
+  padding: 4vh 5vw;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.corpo .geral__paragrafo {
+  margin-top: 10px;
+  background-color: #263238;
+  padding: 2vh 5vw;
+  font-size: 0.75em;
+  text-align: center;
+}
+.corpo .geral .entrada {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+.corpo .geral .entrada .dados {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 10px 0;
+}
+.corpo .geral .entrada .dados__rotulo {
+  font-size: 0.8em;
+  color: black;
+  margin-bottom: 2px;
+}
+.corpo .geral .entrada .dados__duvidas {
+  font-size: 0.8em;
+}
+.corpo .geral .tabela {
+  width: 100%;
+  height: auto;
+  color: black;
+  border: 5px solid #fff;
+  background-color: #fff;
+}
+.corpo .geral .tabela .linha___titulo, .corpo .geral .tabela .linha__regulador, .corpo .geral .tabela .linha__regra {
+  border: 5px solid #fff;
+  width: 50%;
+  padding: 5px;
+}
+.corpo .geral .tabela .linha__regulador {
+  background-color: #263238;
+}
+.corpo .geral .tabela .linha__regulador .link__geral, .corpo .geral .tabela .linha__regulador .link__regional {
+  cursor: default;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+.corpo .geral .tabela .linha__regulador .hover:hover {
+  cursor: pointer;
+  color: #e9e9e98a;
+}
+.corpo .geral .tabela .linha__regra, .corpo .geral .tabela .linha__regulador {
+  font-size: 0.8em;
+  text-align: center;
+  vertical-align: middle;
+}
+.corpo .geral .tabela .linha .regra__paragrafo {
+  line-height: 18px;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
