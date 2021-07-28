@@ -1,0 +1,44 @@
+.tabela {
+    width: 100%;
+    height: auto;
+    color: $preto;
+    border: 5px solid $branco1;
+    background-color: $branco1;
+
+    .linha {
+        &___titulo, &__regulador, &__regra  {
+            border: 5px solid $branco1;
+            width: 50%;
+            padding: 5px;
+        }
+
+        &__regulador {
+            background-color: $azulmx2;
+
+            .link {
+                &__geral, &__regional {
+                    cursor:default;
+                    text-decoration: none;
+                    color: $branco1;
+                    font-weight: 700;
+                }
+            }
+
+            .hover:hover {
+                cursor:pointer;
+                color: $cinza;
+            }
+        }
+
+        &__regra, &__regulador {
+            font-size: .8em;
+            text-align: center;
+            vertical-align:middle;
+        }
+
+        .regra__paragrafo {
+            line-height: 18px;
+            margin: 10px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.entrada {
+    display: flex;
+    justify-content:space-around;
+    padding: 10px 0;
+
+    .dados{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        margin: 10px 0;
+
+        @include for-phone-only {
+            margin: 10px;
+        }
+
+        &__rotulo {
+            font-size: .8em;
+            color:$preto;
+            margin-bottom: 2px;
+        }
+
+        &__duvidas {
+            font-size: .8em;
+        }
+    }
+}
